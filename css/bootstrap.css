@@ -5101,7 +5101,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 .Input {
   text-align: center;
-   
+   font-size: 15px;
+   font-weight: bolder;
 
 }
 input[type=text], select {
@@ -5112,6 +5113,7 @@ input[type=text], select {
   border: 2px solid black;
   border-radius: 4px;
   box-sizing: border-box;
+  font-size: 15px;
 }
 button {
   width: 70%;
