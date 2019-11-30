@@ -1,4 +1,4 @@
-ffunction akan(){
+function akan(){
 
 var dateofbirth = document.getElementById("dateofbirth").value;
 var DD = parseInt(dateofbirth);
