@@ -7,4 +7,5 @@ function akan(){
     var YY = parseInt(year.slice(2)); 
     var CC = parseInt(year.slice(0,2));
 
+   
 }
