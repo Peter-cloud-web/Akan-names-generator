@@ -546,13 +546,17 @@ pre code {
 }
 
 .container {
-  width: 100%;
-  background:black;
+
+  background: black;
+  flex: start;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.container h1{
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+  font-weight: bolder;
   color: white;
-  float: left;
-  padding-top: 40px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 @media (min-width: 576px) {
@@ -5086,10 +5090,26 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron {
-  padding: 2rem 1rem;
+ padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  height: 600px;
+  background:url(Akan2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   border-radius: 0.3rem;
+}
+.Input {
+  text-align: center;
+}
+button {
+  width: 70%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 @media (min-width: 576px) {
