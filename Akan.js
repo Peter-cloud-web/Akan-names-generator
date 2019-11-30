@@ -7,5 +7,9 @@ function akan(){
     var YY = parseInt(year.slice(2)); 
     var CC = parseInt(year.slice(0,2));
 
+    var Day =  Math.ceil((((((CC/4) - 2 * CC - 1) + ((5 * YY/4)) + ((26 * MM + 1)/10)) + DD ) % 7));
+    alert( "You were born on " +Day + "of the week"); 
+
+
    
 }
